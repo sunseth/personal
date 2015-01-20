@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home | Seth Sun</title>
+	    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id = "sidebar-button">
+            <a id="nav-toggle">
+                <span></span>
+            </a>
+        </div>
+
+        <nav class = "sidebar-container">
+            <ul>
+                <li id='nav-top' class='nav-item'>Top</li>
+                <li id='nav-about' class='nav-item'>About</li>
+                <li id='nav-web' class='nav-item'>Portfolio - Web</li>
+                <li id='nav-prog' class='nav-item'>Portfolio - Programming</li>
+                <li id='nav-contact' class='nav-item'>Contact</li>
+            </ul>
+        </nav>
+
+		<div class="wrapper" id="cover-wrapper">
+			<div id="title-cover"></div>
+			<div id="covervid-wrapper">
+				<video class="covervid-video" autoplay loop poster="">
+			        <source src="img/covervid.mp4" type="video/mp4">
+			    </video>
+			</div>
+			<div id="cover-container">
+				<div id="cover-header">Seth Sun</div>
+				<div id="cover-info">
+					<div class="cover-info-el" id="cover-info-anchor">Aspiring</div>
+					<div class="cover-info-el" id="cover-info-carousel-container">
+						<div class="transition" id="cover-info-carousel">
+							<div class="info-piece">Casual Singer</div>
+							<div class="info-piece">Dota Pro</div>
+							<div class="info-piece">Go Master</div>
+							<div class="info-piece">Tennis Player</div>
+							<div class="info-piece">Web Developer</div>
+							<div class="info-piece">Software Engineer</div>
+						</div>
+					</div>
+					<div class="cover-info-el" id="cover-info-icons-container">
+						<div class="transition" id="cover-info-icons">
+							<div class="icon-piece"><img src="img/web.png"></div>
+							<div class="icon-piece"><img src="img/code.png"></div>
+							<div class="icon-piece"><img src="img/tennis.png"></div>
+							<div class="icon-piece"><img src="img/go.png"></div>
+							<div class="icon-piece"><img src="img/game.png"></div>
+							<div class="icon-piece"><img src="img/microphone.png"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pulse" id="cover-pulse"></div>
+		</div>
+
+		<div class="wrapper" id="about-wrapper">
+			<div class="dark-overlay">
+				<div class="header" id="about-header">
+					<div class="container">About</div>
+				</div>
+				<div class="container" id="about-container">
+					<div id="avatar-wrapper">
+						
+						<div id="about-avatar">
+							<div class="rotate90" id="avatar"></div>
+						</div>
+
+					</div>
+
+					<div id="about-info">
+						<h1>Hi.</h1>
+						<p>I'm Seth. Just another wave in this ocean of tech students. But I want to make a splash. A big one. I wasn't surprised to find that a public university of +40,000 students doesn't really make you feel all that special. So I'm self learning web development skills, honing my programming prowess, and looking for an opportunity. <br><br>
+						I want to be versatile, but I'm really interested in the backend Java and Javascript scene. While Java and Javascript have as much in common "as car and carpet", I've learned to love both languages and now I'm looking to to break out of my self taught mold and learn what production/industry coding looks like.</p>
+					</div>
+
+					<div id="about-bar">
+						<div class="about-blurb" id="education-blurb">
+							<div class="dark-overlay">
+								<div class="about-blurb-wrapper">
+									<h1>Education</h1>
+									<ul>
+										<li>UC Berkeley</li>
+										<li>Computer Science</li>
+										<li>2017</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="about-blurb" id="skillset-blurb">
+							<div class="dark-overlay">
+								<div class="about-blurb-wrapper">
+									<h1>Skillset</h1>
+									<ul>
+										<li>Java</li>
+										<li>Python</li>
+										<li>HTML/CSS/JS</li>
+										<li>JQuery</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="about-blurb" id="sports-blurb">
+							<div class="dark-overlay">
+								<div class="about-blurb-wrapper">
+									<h1>Sports</h1>
+									<ul>
+										<li>Tennis</li>
+										<li>Pool</li>
+										<li>Ping Pong</li>
+										<li>Basketball</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="about-blurb" id="food-blurb">
+							<div class="dark-overlay">
+								<div class="about-blurb-wrapper">
+									<h1>Food</h1>
+									<ul>
+										<li>Chashu Pork Ramen</li>
+										<li>In N Out</li>
+										<li>Souplantation</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper" id="portfolio-web-wrapper">
+			<div class="header">
+				<div class="container">Portfolio - Web</div>
+			</div>
+			<div class="container" id="portfolio-container">
+				<div class="exhibit-wrapper">
+					<div class="web-exhibit-left">
+						<a class = 'exhibit-link' href='http://sethsun.com/ghouse'><span class='link'></span></a>
+						<div class='exhibit-cover'></div>
+						<img class="img-scaled photo-zoom" src="img/ghouse.jpg">
+					</div>
+					<div class="web-exhibit-right">
+						<div class="exhibit-header">
+							<div><h1>G-House</h1></div>
+							<div><h2 class="dim">HTML CSS JQuery</h2></div>
+						</div>
+						<div class="exhibit-info">
+							<ul class="dimmer">
+								<li>Promotional website for the G-House residence in Berkeley, CA.</li>
+								<li>Overhaul of original site.</li>
+								<li>Personally lived there Sophomore year; it's a nice place managed by a nice couple!</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="exhibit-wrapper">
+					<div class="web-exhibit-left">
+						<a class = 'exhibit-link' href='http://sethsun.com/tic-tac-toe'><span class='link'></span></a>
+						<div class='exhibit-cover'></div>
+						<img class="img-scaled photo-zoom" src="img/super.png">
+					</div>
+					<div class="web-exhibit-right">
+						<div class="exhibit-header">
+							<div><h1>Super Tic-Tac-Toe</h1></div>
+							<div><h2 class="dim">HTML CSS JS JQuery</h2></div>
+						</div>
+						<div class="exhibit-info">
+							<ul class="dimmer">
+								<li>JQuery/JS powered. Gameboard represented by array of arrays.</li>
+								<li>Interactive and colorful.</li>
+								<li>Great competitive two player game.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="exhibit-wrapper">
+					<div class="web-exhibit-left">
+						<a class = 'exhibit-link' href='http://sethsun.com/iosDecal'><span class='link'></span></a>
+						<div class='exhibit-cover'></div>
+						<img class="img-scaled photo-zoom" src="img/ios.jpg">
+					</div>
+					<div class="web-exhibit-right">
+						<div class="exhibit-header">
+							<div><h1>Macintosh Decal</h1></div>
+							<div><h2 class="dim">HTML CSS JQuery</h2></div>
+						</div>
+						<div class="exhibit-info">
+							<ul class="dimmer">
+								<li>Overhaul of the Macintosh Decal homepage.</li>
+								<li>Lists information for location, time and teachers.</li>
+								<li>Provides schedule of the class.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="exhibit-wrapper">
+					<div class="web-exhibit-left">
+						<a class = 'exhibit-link' href='http://sethsun.com/chatterbox'><span class='link'></span></a>
+						<div class='exhibit-cover'></div>
+						<img class="img-scaled photo-zoom" src="img/chatter.png">
+					</div>
+					<div class="web-exhibit-right">
+						<div class="exhibit-header">
+							<div><h1>Chatterbox</h1></div>
+							<div><h2 class="dim">Socket.io Node.js JQuery</h2></div>
+						</div>
+						<div class="exhibit-info">
+							<ul class="dimmer">
+								<li>Real time chat application. Interact with anyone connected.</li>
+								<li>Multi-room, multi-user chat interface that features name changing, inviting, and text color switches.</li>
+								<li>Powered by Socket.io on a node.js backend server.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="wrapper" id="portfolio-programming-wrapper">
+			<div class="header">
+				<div class="container">Portfolio - Programming</div>
+			</div>
+			<div class="container" id="portfolio-container">
+				<div class="exhibit-wrapper">
+					<div class="prog-exhibit-left">
+						<div class="exhibit-header">
+							<div><h1>Scheme Interpreter</h1></div>
+							<div><h2 class="dim">Python</h2></div>
+						</div>
+						<div class="exhibit-info">
+							<ul class="dimmer">
+								<li>Command line interpreter written in Python.</li>
+								<li>Run Python scheme.py with supporting files.</li>
+								<li>Can perform arithmetic, functions, recursion and all basic Scheme syntax.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="prog-exhibit-right">
+						<a class = 'exhibit-link' href='https://github.com/sunseth/schemeInterpreter'><span class='link'></span></a>
+						<div class='exhibit-cover'></div>
+						<img class="img-scaled photo-zoom" src="img/scheme.png">
+					</div>
+				</div>
+
+				<div class="exhibit-wrapper">
+					<div class="web-exhibit-left">
+						<div class="exhibit-header">
+							<div><h1>File Compresser</h1></div>
+							<div><h2 class="dim">Java</h2></div>
+						</div>
+						<div class="exhibit-info">
+							<ul class="dimmer">
+								<li>Command line Huffman-encoding compresser</li>
+								<li>Encodes files by replacing common occurences with symbols, resulting in smaller file footprint. Decodes with same mapping.</li>
+								<li>Executable on entire directories of text files.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="prog-exhibit-right">
+						<a class = 'exhibit-link' href='https://github.com/sunseth/fileCompressor'><span class='link'></span></a>
+						<div class='exhibit-cover'></div>
+						<img class="img-scaled photo-zoom" src="img/zipper.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper" id="contact-wrapper">
+			<div class="header" id="contact-header">
+				<div class="container">Contact</div>
+			</div>
+		</div>
+		<div class="wrapper" id="contact-info-wrapper">
+			<div class="container">
+				<div id="contact-info">
+					<h1>Find me @:</h1>
+
+					<div class="action" id="gmail-img">
+						<img class="action-img img-scaled" src="img/gmail.png">
+						<div>
+							<input id='email-tag' onClick="this.select();" value="sunseth@berkeley.edu" readonly/>
+						</div>
+					</div>
+					<div class="action" id="github-img">
+						<img class="action-img img-scaled" src="img/github.png">
+						<div>
+							github
+						</div>
+						<a href='https://github.com/sunseth'><span class='link'></span></a>
+					</div>
+					<div class="action" id="linkedin-img">
+						<img class="action-img img-scaled" src="img/linkedin.png">
+						<div>
+							linkedIn
+						</div>
+						<a href='https://www.facebook.com/chuning.sun'><span class='link'></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper" id="button-bar-wrapper">
+			<div class="container">
+				<div id="button-bar">
+					<div class="button" id="resume">Resume</div>
+					<div class="button" id="transcript">Transcript</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<h1>Thanks for visiting!</h1>
+		</div>
+	</body>
+</html>
