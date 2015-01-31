@@ -46,13 +46,13 @@ $(document).ready(function() {
 		}
 	});
 
-	var offset = -6;
+	var offset = 43.5;
 	var idToPosition = {
 		'nav-top': 0,
-		'nav-about': $('#about-wrapper').position().top,
-		'nav-web': $('#portfolio-web-wrapper').position().top - offset,
-		'nav-prog': $('#portfolio-programming-wrapper').position().top - offset,
-		'nav-contact': $('#contact-wrapper').position().top,
+		'nav-about': $('#about-wrapper').offset().top,
+		'nav-web': $('#portfolio-web-wrapper').offset().top - offset,
+		'nav-prog': $('#portfolio-programming-wrapper').offset().top - offset,
+		'nav-contact': $('#contact-wrapper').offset().top,
 	}
 	$('.nav-item').click(function(){
 		var id = $(this).attr('id');
